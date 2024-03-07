@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Área de Retângulo</title>
+</head>
+<body>
+    <h1>Calculadora de Área de Retângulo</h1>
+    <form action="/" method="post">
+        <label for="comprimento">Comprimento:</label>
+        <input type="number" id="comprimento" name="comprimento" required>
+        <br>
+        <label for="largura">Largura:</label>
+        <input type="number" id="largura" name="largura" required>
+        <br>
+        <button type="submit">Calcular Área</button>
+    </form>
+        <p>A área do retângulo é: {{ resultado }}</p>
+</body>
+</html>
