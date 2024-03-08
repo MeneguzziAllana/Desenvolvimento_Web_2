@@ -1,0 +1,2 @@
+Eu fiz um formulário simples onde o usuário pode inserir o comprimento e a largura de um retângulo. Quando o formulário é enviado, os dados são processados pelo Flask e é calculada a área do retângulo.  
+Segui o padrão MVC. Meu Model cuida da lógica de calcular a área. Minha View renderiza o HTML e meu Controller faz a ponte entre a View e o Model, respondendo às interações do usuário e atualizando a visão com os resultados dos cálculos.
