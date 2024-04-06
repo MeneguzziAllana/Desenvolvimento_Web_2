@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Países</title>
+</head>
+<body>
+    <h1>Consulta de Países</h1>
+    <button id="consultarBtn">Consultar Países</button>
+    <div id="resultado"></div>
+
+    <script>
+        document.getElementById('consultarBtn').addEventListener('click', function() {
+            fetch('/consultar_paises', {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultadoDiv = document.getElementById('resultado');
+                resultadoDiv.innerHTML = '';
+                data.forEach(pais => {
+                    const paisDiv = document.createElement('div');
+                    paisDiv.textContent = `${pais.name} - ${pais.emoji}`;
+                    resultadoDiv.appendChild(paisDiv);
+                });
+            })
+            .catch(error => console.error('Erro ao consultar a API:', error));
+        });
+    </script>
+</body>
+</html>
