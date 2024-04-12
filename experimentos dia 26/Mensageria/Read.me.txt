@@ -1,0 +1,7 @@
+No experimento, simulei como os pedidos são tratados em uma loja online usando o RabbitMQ. 
+
+Eu criei duas filas: uma para receber os pedidos da loja e outra para enviar os pedidos processados para o sistema de envio.
+Escrevi um programa para simular a loja online, enviando os pedidos para a fila correta no RabbitMQ.
+Desenvolvi programas para receber esses pedidos, um para processá-los e registrá-los no banco de dados da loja, e outro para enviá-los para o sistema de envio.
+Integrei esses programas com o banco de dados da loja e o sistema de envio.
+
