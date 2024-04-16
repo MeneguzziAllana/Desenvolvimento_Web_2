@@ -1,0 +1,7 @@
+# Risp
+
+- **Nome do Framework:** Risp
+- **Ano de Lançamento:** 2019
+- **Desenvolvedor:** Desenvolvido por Erik L. Nieves
+- **Linguagem de Programação:** Common Lisp
+- **Quando é Recomendado Utilizar o Framework:** O Risp é recomendado para desenvolvedores que desejam criar aplicativos web utilizando a linguagem de programação Common Lisp. Ele oferece uma maneira eficiente e expressiva de desenvolver aplicativos da web, aproveitando as características poderosas da linguagem Lisp. O Risp pode ser utilizado em uma variedade de casos, desde projetos simples até aplicações mais complexas que exigem alta performance e escalabilidade.
